@@ -1,0 +1,9 @@
+<p id="ye"></p>
+<script>
+var myFunc = function myFunc(){
+	document.getElementById("ye").innerHTML = document.getElementById("ye").innerHTML + "Que Que Que Que <br>";
+   setTimeout(function(){
+   myFunc();
+   }, 100);
+}();
+</script>
